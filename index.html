@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script src="index.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="index.css">
+  <title>My Racing Game</title>
+</head>
+<body width = '100%' style='background-color: #F5FFFA'>
+    <div id = 'raceTrack1'>
+      <div id = 'car'><img src='Red.png' alt='Computer car'></div>
+    </div>
+    <p>Red Car is Computer, it will race you to the orange box.</p>
+
+    <div id = 'raceTrack2'>
+      <div id = 'player'><img src='Blue.png' alt='Player car'></div>
+    </div>
+    <p>Blue Car is You, charge towards the yellow box to win!!!</p>
+
+<div id = 'wrapper'>
+  <form>
+    <select id='difficulty'>
+      <option value = 'Normal'>Normal Difficulty</option>
+      <option value = 'Hard'>Hard Difficulty</option>
+      <option value = 'Insane'>Insane Difficulty</option>
+    </select>
+  </form>
+  <button id='startButton'>Start Game</button>
+  <button id='reset'>Reset</button>
+</div>
+
+</body>
+</html>
